@@ -1,0 +1,6 @@
+ultralytics==8.4.211
+opencv-python-headless
+PyYAML
+matplotlib
+numpy
+pandas

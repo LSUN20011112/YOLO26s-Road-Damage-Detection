@@ -1,0 +1,11 @@
+path: /content/drive/MyDrive/DIP/Project/Final
+train: images/train
+val: images/valid
+test: images/test
+names:
+  0: pothole
+  1: crack
+  2: debris
+  3: manhole
+  4: speed_breaker
+  5: road_barricade
