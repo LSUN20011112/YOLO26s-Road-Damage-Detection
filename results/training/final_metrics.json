@@ -1,0 +1,35 @@
+{
+  "model": "yolo26s.pt",
+  "best_checkpoint": "/content/drive/MyDrive/DIP/Project/runs/yolo26s_road_damage/weights/best.pt",
+  "image_size": 640,
+  "validation": {
+    "split": "validation",
+    "precision": 0.877142041255094,
+    "recall": 0.8609283104967735,
+    "mAP50": 0.9045385777218097,
+    "mAP50_95": 0.6612288365036129,
+    "per_class_mAP50_95": {
+      "pothole": 0.5951263495701056,
+      "crack": 0.5130437070639988,
+      "debris": 0.7745963313585024,
+      "manhole": 0.7636432183493135,
+      "speed_breaker": 0.5771882279336209,
+      "road_barricade": 0.7437751847461356
+    }
+  },
+  "test": {
+    "split": "test",
+    "precision": 0.8848113019371756,
+    "recall": 0.8588088561849986,
+    "mAP50": 0.9115633526661725,
+    "mAP50_95": 0.6838853348949276,
+    "per_class_mAP50_95": {
+      "pothole": 0.5823719109027203,
+      "crack": 0.6190994643847123,
+      "debris": 0.7903692856802397,
+      "manhole": 0.8219896389347354,
+      "speed_breaker": 0.5582016498982851,
+      "road_barricade": 0.731280059568873
+    }
+  }
+}
